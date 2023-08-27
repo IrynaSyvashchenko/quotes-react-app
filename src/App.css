@@ -1,0 +1,45 @@
+.main {
+  /* text-align: center; */
+  background-color: #D0D0D0;
+  border-radius: 10px;
+  padding: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-style: italic;
+  margin-top: 40px;
+}
+
+.coloms {
+font-size: 50px;
+margin: 0px;
+color: gray;
+margin-right: 20px;
+}
+
+.quote {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.author {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
