@@ -1,5 +1,5 @@
 const generateNewQuote = (func) => {
-    fetch(`http://localhost:5000/quotes/random/`)
+    fetch(`https://pricey-heartbreaking-lime.glitch.me/quotes/random`)
       .then(res => res.json())
       .then(data => {
         func(data);
